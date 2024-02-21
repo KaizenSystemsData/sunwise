@@ -11,3 +11,11 @@
     font-size: 18px;
     margin-right: 10px;
   }
+
+  .no-underline {
+    text-decoration: none;
+  }
+
+  .no-resize {
+    resize: none;
+  }
