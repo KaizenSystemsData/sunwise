@@ -134,7 +134,7 @@
 
   <!-- Navbar end -->
 
-  <h1 class="mt-5 text-center">FAQs</h1>
+  <h1 class="mt-5 text-center text-gold-website">FAQs</h1>
 
   <!-- Accordion start -->
   <div class="container mb-3 mt-5">
@@ -146,53 +146,42 @@
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Accordion Item #1
+            What is a visa?
           </button>
         </h2>
         <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          <div class="accordion-body">A visa is an official document issued by a country’s government that allows a foreign individual to enter, stay, or work in that country for a specific purpose and duration.</div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Accordion Item #2
+            How do I apply for a visa?
           </button>
         </h2>
         <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-            this being filled with some actual content.</div>
+          <div class="accordion-body">The application process for a visa varies depending on the country you wish to visit. Typically, you’ll need to complete an application form, submit supporting documents (such as a passport, photographs, proof of financial stability, and invitation letters if applicable), pay the visa fee, and attend an interview or biometrics appointment.</div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            Accordion Item #3
+            What are the different types of visas?
           </button>
         </h2>
         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">There are various types of visas, including tourist visas, student visas, work visas, business visas, and family visas. Each type serves a different purpose and has specific eligibility requirements and restrictions.</div>
         </div>
       </div>
 
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-            Accordion Item #4
+            How long does it take to get a visa?
           </button>
         </h2>
         <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">The processing time for a visa can vary significantly depending on the country and type of visa. It can range from a few days to several months. It’s advisable to apply well in advance of your intended travel date.</div>
         </div>
       </div>
 
@@ -202,57 +191,44 @@
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-            Accordion Item #5
+            What is the IELTS?
           </button>
         </h2>
         <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">The IELTS is an internationally recognized English language proficiency test. It assesses the language skills of non-native English speakers who want to study, work, or migrate to English-speaking countries.</div>
         </div>
       </div>
 
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-            Accordion Item #6
+            Why should I consider coaching or training for the IELTS?
           </button>
         </h2>
         <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">Coaching or training for the IELTS can help you familiarize yourself with the test format, understand the scoring criteria, improve your English language skills, and gain confidence in taking the exam. It can increase your chances of achieving a higher score.</div>
         </div>
       </div>
 
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-            Accordion Item #7
+            What does IELTS coaching involve?
           </button>
         </h2>
         <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">IELTS coaching typically involves comprehensive guidance and support in all four sections of the test: Listening, Reading, Writing, and Speaking. It includes strategies for each section, practice tests, feedback on your performance, and targeted language development exercises.</div>
         </div>
       </div>
 
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-            Accordion Item #8
+            Should I join a classroom-based coaching program or opt for online coaching?
           </button>
         </h2>
         <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          <div class="accordion-body">The choice between classroom-based and online coaching depends on your preferences and circumstances. Classroom-based coaching offers face-to-face interaction with instructors and fellow students, while online coaching provides flexibility in terms of scheduling and learning at your own pace. Consider factors like location, time availability, and learning style to make the best choice for you.</div>
         </div>
       </div>
 
@@ -263,57 +239,43 @@
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-            Accordion Item #9
+            What is service and support?
           </button>
         </h2>
         <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
-            this being filled with some actual content.</div>
+          <div class="accordion-body">Service and support refers to the assistance provided to customers before, during, and after they purchase a product or service. It includes various activities such as answering customer inquiries, resolving issues or complaints, providing technical assistance, and offering guidance or advice.</div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-            Accordion Item #10
+            Why is service and support important?
           </button>
         </h2>
         <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">Service and support are essential for ensuring customer satisfaction and loyalty. It helps customers effectively use the product or service, resolves any problems they may encounter, and enhances their overall experience. Good service and support can lead to repeat business, positive reviews, and word-of-mouth recommendations.</div>
         </div>
       </div>
 
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-            Accordion Item #11
+            What types of support channels are available?
           </button>
         </h2>
         <div id="flush-collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">Support channels can include phone support, email support, live chat, self-help resources (such as FAQs and knowledge bases), online forums or communities, social media support, and in-person support centers. The availability of support channels may vary depending on the company and the nature of the product or service.</div>
         </div>
       </div>
 
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-            Accordion Item #12
+            How quickly should I expect a response from customer support?
           </button>
         </h2>
         <div id="flush-collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample" style="">
-          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
-            the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
-            exciting happening here in terms of content, but just filling up the space to make it look, at
-            least at first glance, a bit more representative of how this would look in a real-world
-            application.</div>
+          <div class="accordion-body">Response times can vary depending on the company’s service level agreements and the urgency of the issue. In general, companies strive to respond to customer inquiries as promptly as possible. Some may provide specific response timeframes, such as within 24 hours or within a certain number of business days.</div>
         </div>
       </div>
 
@@ -373,7 +335,7 @@
         </li>
         <li class="nav-item"><a href="find-your-course.html" class="nav-link px-2 text-body-secondary">Find Your
             Course</a></li>
-            <li class="nav-item"><a href="faq.php" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="faq.php" class="nav-link px-2 text-body-secondary">FAQs</a></li>
         <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-body-secondary">Contact</a></li>
         <li class="nav-item"><a href="about-us.html" class="nav-link px-2 text-body-secondary">About</a></li>
       </ul>
