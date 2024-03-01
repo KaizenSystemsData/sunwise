@@ -1,21 +1,39 @@
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+}
 
-  .top-bar {
-    background-color: #333;
-    color: #fff;
-    padding: 5px 0;
-  }
-  .top-bar .contact-info {
-    font-size: 14px;
-  }
-  .top-bar .social-icons i {
-    font-size: 18px;
-    margin-right: 10px;
-  }
+.top-bar .contact-info {
+  font-size: 14px;
+}
 
-  .no-underline {
-    text-decoration: none;
-  }
+.top-bar .social-icons i {
+  font-size: 18px;
+  margin-right: 10px;
+}
 
-  .no-resize {
-    resize: none;
-  }
+.no-underline {
+  text-decoration: none;
+}
+
+.no-resize {
+  resize: none;
+}
+
+.text-gold-website {
+  color: #bc9c23 !important;
+}
+
+.lead {
+  text-align: justify;
+}
+
+body {
+  background-color: #FEFFFF;
+}
+
+.btn-primary {
+  background-color: #bc9c23;
+  border: none;
+}

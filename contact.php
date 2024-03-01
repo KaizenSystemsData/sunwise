@@ -7,12 +7,11 @@
   <title>Contact - Sunwise Education Consultants</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- Font Awesome for social icons -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link href="styles/style.css" rel="stylesheet" />
@@ -31,19 +30,14 @@
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-md-auto col-12 mb-2 mb-md-0 contact-info text-center text-md-start">
-          <a href="mailto:info@sunupoverseas.com" class="d-block d-md-inline text-white text-decoration-none"><i
-              class="fas fa-envelope"></i> info@sunupoverseas.com</a>
-          <a href="tel:+916280606005" class="ms-0 ms-md-3 d-block d-md-inline text-white text-decoration-none"><i
-              class="fas fa-phone"></i> +91 6280606005</a>
+          <a href="mailto:info@sunupoverseas.com" class="d-block d-md-inline text-white text-decoration-none"><i class="fas fa-envelope"></i> info@sunupoverseas.com</a>
+          <a href="tel:+916280606005" class="ms-0 ms-md-3 d-block d-md-inline text-white text-decoration-none"><i class="fas fa-phone"></i> +91 6280606005</a>
         </div>
         <div class="col-md-auto col-12 social-icons text-center text-md-end">
-          <a href="https://www.facebook.com/profile.php?id=100092948220827" target="_blank" class="text-white"><i
-              class="fab fa-facebook-f"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100092948220827" target="_blank" class="text-white"><i class="fab fa-facebook-f"></i></a>
           <!-- <a href="https://twitter.com/SunupO72667"><i class="fab fa-twitter"></i></a> -->
-          <a href="https://www.instagram.com/sunupoverseas/" target="_blank" class="text-white"><i
-              class="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/company/sunup-overseas/" target="_blank" class="text-white"><i
-              class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/sunupoverseas/" target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/sunup-overseas/" target="_blank" class="text-white"><i class="fab fa-linkedin"></i></a>
           <!-- Add more social icons as needed -->
         </div>
       </div>
@@ -128,12 +122,12 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="about-us.html">The Sunwise Story</a></li>
-              <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+              <li><a class="dropdown-item" href="faq.php">FAQs</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Contact</a>
+            <a class="nav-link" href="contact.php">Contact</a>
           </li>
 
         </ul>
@@ -144,7 +138,7 @@
   <!-- Navbar end -->
 
 
-  
+
   <h1 class="mt-5 text-center">Contact Us</h1>
 
   <div class="container mt-5">
@@ -162,11 +156,14 @@
               <div class="form-group mt-3">
                 <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" required>
               </div>
+              <!-- <div class="form-group mt-3">
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+              </div> -->
               <div class="form-group mt-3">
                 <textarea class="form-control no-resize" id="message" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="mt-3 p-3">
-                <button type="submit" class="btn btn-primary w-100">Send</button>
+                <button type="submit" name="send" class="btn btn-primary w-100">Send</button>
               </div>
             </form>
           </div>
@@ -197,7 +194,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-8">
@@ -212,7 +209,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-8">
@@ -233,8 +230,8 @@
       </div>
     </div>
   </div>
-  
-  
+
+
 
   <!-- <div class="container text-center mt-5">
     <div class="row">
@@ -247,36 +244,33 @@
   </div> -->
 
 
- <!-- Footer start -->
+  <!-- Footer start -->
 
- <div class="container">
-  <footer class="py-3 my-0">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="study-destination.html" class="nav-link px-2 text-body-secondary">Study Destination</a></li>
-      <li class="nav-item"><a href="visa-services.html" class="nav-link px-2 text-body-secondary">Visa Services</a></li>
-      <li class="nav-item"><a href="find-your-course.html" class="nav-link px-2 text-body-secondary">Find Your Course</a></li>
-      <li class="nav-item"><a href="faq.html" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="contact-us.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
-      <li class="nav-item"><a href="about-us.html" class="nav-link px-2 text-body-secondary">About</a></li>
-    </ul>
-    <p class="text-center text-body-secondary">© 2024 Sunwise</p>
-  </footer>
-</div>
+  <div class="container">
+    <footer class="py-3 my-0">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="study-destination.html" class="nav-link px-2 text-body-secondary">Study Destination</a></li>
+        <li class="nav-item"><a href="visa-services.html" class="nav-link px-2 text-body-secondary">Visa Services</a></li>
+        <li class="nav-item"><a href="find-your-course.html" class="nav-link px-2 text-body-secondary">Find Your Course</a></li>
+        <li class="nav-item"><a href="faq.php" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-body-secondary">Contact</a></li>
+        <li class="nav-item"><a href="about-us.html" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Sunwise</p>
+    </footer>
+  </div>
 
-<!-- Footer end -->
+  <!-- Footer end -->
 
   <a href="#top" class="btn btn-secondary w-100">Back To Top</a>
 
 
   <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
 </body>
 
 </html>
+

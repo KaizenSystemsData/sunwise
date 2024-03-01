@@ -7,9 +7,9 @@
   <title>Sunwise Education Consultants</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -50,7 +50,7 @@
   <!-- Top bar end -->
 
   <!-- Navbar start -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 m-0 border-0 bd-example m-0 border-0">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-1 m-0 border-0 bd-example m-0 border-0">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" class="w-25"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -125,12 +125,12 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="about-us.html">The Sunwise Story</a></li>
-              <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+              <li><a class="dropdown-item" href="faq.php">FAQs</a></li>
             </ul>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Contact</a>
+            <a class="nav-link" href="contact.php">Contact</a>
           </li>
 
         </ul>
@@ -142,7 +142,7 @@
 
   <!-- Carousel start -->
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleCaptions" class="carousel slide viewport-height" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -152,44 +152,27 @@
         aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First
-            slide</text>
+      <div class="carousel-item active slider-image" data-bs-interval="10000">
+        <img src="images/new-york-slider-image-1.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+          width="800" height="" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
+        <title>Placeholder</title>
         </svg>
-        <div class="carousel-caption d-none d-md-block">
+        <!-- <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p>
-        </div>
+        </div> -->
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second
-            slide</text>
-        </svg>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
+        <img src="images/study-abroad-slider-image-2.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+          width="800" height="" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
+
       </div>
       <div class="carousel-item" data-bs-interval="5000">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third
-            slide</text>
-        </svg>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
+        <img src="images/opp-slider-image-3.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100"
+          width="800" height="" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice"
+          focusable="false">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -206,50 +189,42 @@
 
   <!-- Countries start -->
 
-  <h2 class="mt-2 text-center">Study Abroad!</h2>
+
+  <h1 class="mt-5 mb-5 text-center text-gold-website">Study Abroad!</h1>
   <div class="card-group mt-2">
     <div class="card">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-        role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-          cap</text>
-      </svg>
+      <img class="bd-placeholder-img card-img-top object-fit-contain p-3 rounded-circle" width="100%" height="180"
+        src="images/canada.png" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
+        focusable="false">
+
       <div class="card-body">
         <h5 class="card-title">Canada</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This content is a little bit longer.</p>
+        <p class="card-text">Study in Canada for diverse, innovative, quality education and global opportunities.</p>
       </div>
       <!-- <div class="card-footer">
         <small class="text-body-secondary">Last updated 3 mins ago</small>
       </div> -->
     </div>
     <div class="card">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-        role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-          cap</text>
-      </svg>
+      <img class="bd-placeholder-img card-img-top object-fit-contain p-3 rounded-circle" width="100%" height="180"
+        src="images/australia.png" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
+        focusable="false">
       <div class="card-body">
         <h5 class="card-title">Australia</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">Study in Australia for world-class education, diverse culture, and endless opportunities.
+        </p>
       </div>
       <!-- <div class="card-footer">
         <small class="text-body-secondary">Last updated 3 mins ago</small>
       </div> -->
     </div>
     <div class="card">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-        role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-          cap</text>
-      </svg>
+      <img class="bd-placeholder-img card-img-top object-fit-contain p-3 rounded-circle" width="100%" height="180"
+        src="images/us.png" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice"
+        focusable="false">
       <div class="card-body">
         <h5 class="card-title">United States</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-          This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text">Study in the USA for top-tier education, cultural diversity, and vast opportunities.</p>
       </div>
       <!-- <div class="card-footer">
         <small class="text-body-secondary">Last updated 3 mins ago</small>
@@ -262,80 +237,76 @@
 
   <!-- Services start -->
 
-  <div class="container col-xxl-8 px-4 py-5">
-    <h2 class="mt-2 text-center">Welcome To Sunwise Services</h2>
+  <div class="container col-xxl-8 px-4 py-5 mt-5">
+    <h2 class="text-center text-gold-website">Welcome To Sunwise Services</h2>
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png"
-          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="images/student-visa.png" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes"
+          width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.</p>
+        <h3 class="fw-bold text-body-emphasis lh-1 mb-3">Student Visa</h3>
+        <p class="lead">We specialise in efficient student visa services, ensuring smooth transitions for aspiring
+          scholars, and simplifying the process with expertise and care.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <a href="student-visa.html" type="button" class="btn btn-primary btn-lg px-4 me-md-2">View More Details</a>
         </div>
       </div>
     </div>
   </div>
+
+
 
 
 
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png"
-          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="images/family-visa.png" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes"
+          width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.</p>
+        <h3 class="fw-bold text-body-emphasis lh-1 mb-3">Family Visa</h3>
+        <p class="lead">We offer seamless family visa services, facilitating reunions, fostering unity, and simplifying
+          migration for loved ones.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <a href="family-visa.html" type="button" class="btn btn-primary btn-lg px-4 me-md-2">View More Details</a>
         </div>
       </div>
     </div>
   </div>
+
 
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png"
-          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="images/official-visa.png" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes"
+          width="700" height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.</p>
+        <h3 class="fw-bold text-body-emphasis lh-1 mb-3">Official Visa</h3>
+        <p class="lead">We excel at providing official visa services, guiding clients through the intricacies of the
+          application process with professionalism and efficiency.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <a href="official-visa.html" type="button" class="btn btn-primary btn-lg px-4 me-md-2">View More Details</a>
         </div>
       </div>
     </div>
   </div>
 
+
   <div class="container col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
-        <img src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png"
-          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <img src="images/green-card.png" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.</p>
+        <h3 class="fw-bold text-body-emphasis lh-1 mb-3">Green Card</h3>
+        <p class="lead">We provide comprehensive assistance for obtaining green cards, offering expertise and support to
+          navigate the immigration process smoothly.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <a href="green-card.html" type="button" class="btn btn-primary btn-lg px-4 me-md-2">View More Details</a>
         </div>
       </div>
     </div>
@@ -383,11 +354,14 @@
     <footer class="py-3 my-0">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
-        <li class="nav-item"><a href="study-destination.html" class="nav-link px-2 text-body-secondary">Study Destination</a></li>
-        <li class="nav-item"><a href="visa-services.html" class="nav-link px-2 text-body-secondary">Visa Services</a></li>
-        <li class="nav-item"><a href="find-your-course.html" class="nav-link px-2 text-body-secondary">Find Your Course</a></li>
-        <li class="nav-item"><a href="faq.html" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-        <li class="nav-item"><a href="contact-us.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+        <li class="nav-item"><a href="study-destination.html" class="nav-link px-2 text-body-secondary">Study
+            Destination</a></li>
+        <li class="nav-item"><a href="visa-services.html" class="nav-link px-2 text-body-secondary">Visa Services</a>
+        </li>
+        <li class="nav-item"><a href="find-your-course.html" class="nav-link px-2 text-body-secondary">Find Your
+            Course</a></li>
+        <li class="nav-item"><a href="faq.php" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-body-secondary">Contact</a></li>
         <li class="nav-item"><a href="about-us.html" class="nav-link px-2 text-body-secondary">About</a></li>
       </ul>
       <p class="text-center text-body-secondary">© 2024 Sunwise</p>
