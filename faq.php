@@ -286,7 +286,7 @@
   <!-- Accordion end -->
 
 
-  <div class="container mt-5">
+  <!-- <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-6">
         <div class="card">
@@ -313,7 +313,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
@@ -346,7 +346,6 @@
   <!-- Footer end -->
 
   <a href="#top" class="btn btn-secondary w-100">Back To Top</a>
-
 
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

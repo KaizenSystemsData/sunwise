@@ -139,9 +139,9 @@
 
 
 
-  <h1 class="mt-5 text-center">Contact Us</h1>
+  <!-- <h1 class="mt-5 text-center">Contact Us</h1> -->
 
-  <div class="container mt-5">
+  <!-- <div class="container mt-5">
     <div class="row justify-content-center">
       <div class="col-md-6">
         <div class="card">
@@ -155,11 +155,11 @@
               </div>
               <div class="form-group mt-3">
                 <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" required>
-              </div>
+              </div> -->
               <!-- <div class="form-group mt-3">
                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
               </div> -->
-              <div class="form-group mt-3">
+              <!-- <div class="form-group mt-3">
                 <textarea class="form-control no-resize" id="message" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="mt-3 p-3">
@@ -170,7 +170,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container mt-5">
     <div class="row justify-content-center">
