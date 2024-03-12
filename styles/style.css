@@ -39,3 +39,7 @@ body {
   background-color: #bc9c23;
   border: none;
 }
+
+.text-body-emphasis {
+  color: #315f7f!important;
+}
