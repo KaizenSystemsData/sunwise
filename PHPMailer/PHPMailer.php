@@ -280,7 +280,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $Host = 'localhost';
+    public $Host = 'sunwiseoverseas.com';
 
     /**
      * The default SMTP server port.
@@ -2164,7 +2164,7 @@ class PHPMailer
         $this->smtp->setDebugOutput($this->Debugoutput);
         $this->smtp->setVerp($this->do_verp);
         if ($this->Host === null) {
-            $this->Host = 'localhost';
+            $this->Host = 'sunwiseoverseas.com';
         }
         $hosts = explode(';', $this->Host);
         $lastexception = null;
@@ -2239,7 +2239,7 @@ class PHPMailer
                     //* the server offers STARTTLS
                     if (
                         $this->SMTPAutoTLS &&
-                        $this->Host !== 'localhost' &&
+                        $this->Host !== 'sunwiseoverseas.com' &&
                         $sslext &&
                         $secure !== 'ssl' &&
                         $this->smtp->getServerExt('STARTTLS')
@@ -4232,7 +4232,7 @@ class PHPMailer
             $result = php_uname('n');
         }
         if (!static::isValidHost($result)) {
-            return 'localhost.localdomain';
+            return 'sunwiseoverseas.com';
         }
 
         return $result;
