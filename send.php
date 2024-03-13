@@ -25,14 +25,14 @@ if (isset($_POST['send'])) {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'kaizensystemsdata@gmail.com';                     //SMTP username
-    $mail->Password   = 'rbyk rlcl nkua ntmv';                               //SMTP password
+    $mail->Username   = 'sunupedtech@gmail.com';                     //SMTP username
+    $mail->Password   = 'herg kvqw ssda hfvv';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('kaizensystemsdata@gmail.com', 'Sunwise - Contact Form');
-    $mail->addAddress('kaizensystemsdata@gmail.com', 'Recipient');     //Add a recipient
+    $mail->setFrom('sunupedtech@gmail.com', 'Sunwise - Contact Form');
+    $mail->addAddress('sunupedtech@gmail.com', 'Recipient');     //Add a recipient
 
 
 
@@ -42,7 +42,7 @@ if (isset($_POST['send'])) {
     $mail->Body    = "Sender Name - $name <br><br> Sender Email - $email <br><br> Query - $message <br><br> Sender Phone - $phone";
 
     $mail->send();
-    echo 'Message has been sent';
+    echo '<h1>Message has been sent</h1>';
   } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
   }
@@ -61,7 +61,7 @@ if (isset($_POST['send'])) {
 </head>
 
 <body>
-  <a href="index.html">Home</a>
+  <a href="index.html" style="font-weight: bold;">Home</a>
 </body>
 
 </html>
